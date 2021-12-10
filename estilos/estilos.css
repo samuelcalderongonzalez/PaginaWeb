@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding:0;
+}
+.navbar {
+    position:fixed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(192, 174, 150);
+    width:100%;
+    height:70px;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 5%;
+}
+.logo{
+    margin-left: 2%;
+    margin-right: -15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 33px;
+}
+a{
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner-area{
+    background-image:url('../imagenes/impresoralaser.jpg');
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+}
+.introduccion-area, .tipos-area, .funcionamiento-area, .instalacion-area, .marcas-area, .promocion-area{
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+.text-part{
+    widows: 65%;
+    font-family: 'Poppins', sans-serif;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 50px;
+    font-family: serif;
+}
+p{
+    font-size:20px;
+    line-height: 30px;
+}
+#tipos li, #funcionamiento li, #instalacion li{
+    font-size: 23px;
+    line-height: 30px;
+}
+.introduccion-area, .funcionamiento-area, .marcas{
+    background-color: white;
+}
+.tipos-area, .instalacion-area, .promocion-area{
+    background-color: black;
+    color: white;
+}
+img{
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 100%;
+}
+
+#discount-area{
+
+    width: fit-content;
+    height: fit-content;
+    margin-left: 55%;
+    margin-top: 3%;
+}
+
+#discount-img{
+
+    width: 250px;
+    height: auto;
+}
+
+.footer{
+    background-color: grey;
+    text-align: center;
+    margin-top: 5%;
+}
+.tdazul{
+    background-color: cyan;
+    border: 1px solid black;
+    text-align: center;
+}
+.tdverde{
+    background-color: lightgreen;
+    border: 1px solid black;
+    text-align: center;
+}
+.tdrojo{
+    background-color: lightcoral;
+    border: 1px solid black;
+    text-align: center;
+}
+.marcasleft{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+} 
