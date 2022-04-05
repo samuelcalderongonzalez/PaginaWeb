@@ -1,9 +1,13 @@
+@media all {
+
+
+
 body{
     margin:0;
     padding:0;
 }
 .navbar {
-    position:fixed;
+    position:relative;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -115,3 +119,4 @@ img{
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 } 
+}
